@@ -97,9 +97,14 @@ def ejercicio_7():
   pares = inventario_tienda.items()
   
   print(pares)
-
+"""2. Escribe un programa que permita llevar un registro de las
+calificaciones de varios estudiantes. El programa debe permitir
+agregar estudiantes con sus calificaciones, actualizar las
+calificaciones de un estudiante existente y mostrar el promedio
+de calificaciones de un estudiante específico.
+"""
 def ejercicio_8():
-
+  lista_estudiantes = [dario, mica, alma]
   dario = {"matermatica" : 9,
            "lengua" : 6,
            "geografia": 7,
@@ -113,6 +118,12 @@ def ejercicio_8():
           "geografia": 7 ,
           "ingles": 6
           }
-  lista_estudiantes = (dario, mica, alma)
+  lista_estudiantes.append(lisa)
+  lisa = {"matematica" : 2,
+          "lengua" : 1 ,
+          "geografia": 0 ,
+          "ingles": 3
+          }
   print(lista_estudiantes)
 ejercicio_8()
+"""cambio"""
